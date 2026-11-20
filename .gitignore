@@ -1,0 +1,48 @@
+﻿# .NET build files
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Node.js
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Frontend local environment
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# ASP.NET Core local settings
+api/**/appsettings.Development.json
+api/**/appsettings.Local.json
+
+# User Secrets
+**/secrets.json
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
